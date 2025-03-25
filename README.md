@@ -1,7 +1,15 @@
-# Holy Markdown v0.7  
-Hello. You're looking at a self-bootstrapping spec for what is a declarative language that is based on Extended Markdown.  The main idea is the spec is both a declaration and a set of recursive principles to explore ideas and encapsulate knowledge. 
+# Holy Markdown v0.314
++ i've decided to converge the version on pi for a minute for funzies until we figure this all out, then boom it's v1 heehe.
+
+x Hello. You're looking at a self-bootstrapping spec for what is a declarative language that is based on Extended Markdown.  The main idea is the spec is both a declaration and a set of recursive principles to explore ideas and encapsulate knowledge. 
+  + i think this is so dry. i need to write this from the human POV first i'm realizing
+
+We want to define knowledge the way we always have: by putting the "thing" in the header and putting "what the thing is" below that, in smaller text. So far so good?
+
+This document then is like a continuous agreement between any two parties, a documented "unwrapping" of an idea. 
 
 ## Motivation and purpose
++ i kinda hate all this too now, even tho it documents the right things. i see now how i have to write a piece of writing, that's also declarative. if its just a "list of things" it reads like a spec sheet and gets boring and i hate that
 This format is an attempt to kill a few birds with one stone, or maybe less violently, a way to feed all the birds w the same loaf of bread. Even though they say bread is bad. But how come duckies crave it so much?
 
 Some of the ideas that lead to the development of this language:
