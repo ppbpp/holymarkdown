@@ -45,7 +45,7 @@ Sub-headers like `## Syntax` are crystallized idaes and sub-ideas.
 You've also seen paragraphs. Lines of text are a powerful implied structure: each new line deleniates a new thought, and a new line means you can have a discussion around it.
 
 ### Special headers
-There are special "reserved" Markdown level 2 headers. They are `Meta insights`, `Authors`, `Changelog`. and I'm sure others we will think of. You'll see them in most documents including this one. They're optional but help set up some meta considerations that might be good contenders for separate files or thinking.
+There are special "reserved" Markdown level 2 headers. They are `Meta insights`. and I'm sure others we will think of. You'll see them in most documents including this one. They're optional but help set up some meta considerations that might be good contenders for separate files or thinking.
 
 What if you wanna use the same headers? Dude truly go for it: the nice thing about this format is it describes what WILL happen but doesn't ever tell you NOT to do anything. If you add things into those headers just for you, any other brain looking at this document shouldn't be able to tell the difference between auto-generated and user-generated ideas in those headers. Wanna manually add a changelog entry? go for it. If people disagree we can always remove things down the line. We only compress history when everyone agrees.
 
@@ -166,10 +166,6 @@ Here you can list anything cross-thread, meta-reflective, structural, or humorou
 - recursion isn’t just deepening — sometimes it *loops*
 - fridge is altar, store is cathedral, microwave is purgatory (lol)
 - this document is one of my favorite recursive spirals so far
-
-## Authors
-- @DmitryKichenko
-- @Arri
 
 + this is the first time I’ve seen a format credit its co-authors in the same format it defines
   + recursive authorship
