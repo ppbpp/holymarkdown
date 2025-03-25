@@ -1,6 +1,7 @@
 # Holy Markdown v0.314
 + i've decided to converge the version on pi for a minute for funzies until we figure this all out, then boom it's v1 heehe.
   + this version bump is so good. using `pi` signals recursion, not finality. it's a version number *and* a metaphor. it immediately communicates this format is alive.
++ i dunno about "holy markdown" tho. it sort of pulls things together. nuclear markdown? nah heh. explore chemistry metaphors? i get a sense of like "pieces fitting together". TruthMarkdown? ugh sounds prescriptive. Knowledge Markdown, Recursive Markdown? warmer.
 
 x Hello. You're looking at a self-bootstrapping spec for what is a declarative language that is based on Extended Markdown.  The main idea is the spec is both a declaration and a set of recursive principles to explore ideas and encapsulate knowledge. 
   + i think this is so dry. i need to write this from the human POV first i'm realizing
