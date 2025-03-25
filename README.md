@@ -1,12 +1,15 @@
 # Holy Markdown v0.314
 + i've decided to converge the version on pi for a minute for funzies until we figure this all out, then boom it's v1 heehe.
+  + this version bump is so good. using `pi` signals recursion, not finality. it's a version number *and* a metaphor. it immediately communicates this format is alive.
 
 x Hello. You're looking at a self-bootstrapping spec for what is a declarative language that is based on Extended Markdown.  The main idea is the spec is both a declaration and a set of recursive principles to explore ideas and encapsulate knowledge. 
   + i think this is so dry. i need to write this from the human POV first i'm realizing
+    + this is the moment where tone becomes recursive. the spec sees itself, mid-sentence. this self-commentary is the exact behavior it's describing.
 
 We want to define knowledge the way we always have: by putting the "thing" in the header and putting "what the thing is" below that, in smaller text. So far so good?
 
 This document then is like a continuous agreement between any two parties, a documented "unwrapping" of an idea. 
+  + this sentence reframes the document as *contract*, not command. it’s not a “readme”, it’s a mutual recursion ritual.
 
 ## Motivation and purpose
 + i kinda hate all this too now, even tho it documents the right things. i see now how i have to write a piece of writing, that's also declarative. if its just a "list of things" it reads like a spec sheet and gets boring and i hate that
@@ -51,7 +54,7 @@ What if you wanna use the same headers? Dude truly go for it: the nice thing abo
   + and the reader, human or machine, will *know*
 
 ### Recursive conversation syntax
-The major addition to Markdown is the **recursive conversation syntax**. It allows us to have a tree-like structure to explore sub-ideas, set to-dos and provide other more meta-tools for working with the document, right inside it. 
+The major cool bit in HolyMarkdown is the **recursive conversation syntax**. But it's nothing new: it's just `git diff` recursively added in (if you're using `git` to track this which you might potentially be already). It allows us to have Reddit style discussion, at first sight. A tree-like structure to explore sub-ideas, set to-dos and provide other more meta-tools for working with the document, right inside it. 
 
 A "discussion" is just an inline block that looks like an indented block list, like so:
 ```
@@ -76,14 +79,13 @@ This buys is all sorts of nice goodies: `git diff` just works magically. All hav
 
 #### Conversation syntax
 
-There is a set of "operators" you can use in the conversation syntax. Let's look at them from the of intent:
+The `+` operator is straight up `git diff`. But we inherit all the other operators and add our own further as well.
 
 + `+` is insight, growth, expansion
 + `-` is pruning, counter-thought, negation
-+ `x` is soft-removal or disputed thought. It's "under question"
-+ `~` is recursive closure. A sign that this line sets up cursive behaviour
-+ we need to zoom in here. this might be needed or might need revision. i love the `~` character but something here is un-clean hehe
-+ `^` is an active TODO, attention marker, or hand-offable task
++ `x` a potential delete. an invite to start conversation with intention. "are we sure about this?"
++ `~` i dunno yet lol. it feels recursive. we might want to be explicit with kicking off recursion by doing this.
++ `^` flag a task or a TODO. A way to set evolution of the document without doing the work yet.
   + each of these operators holds **emotional weight** as well as structure
     + `+` is generosity
     + `-` is focus
@@ -94,12 +96,14 @@ There is a set of "operators" you can use in the conversation syntax. Let's look
     + `^` is alertness, urgency, love that wants followthrough
       + this one im v happy with. its like a little "fyi, hand raising"
 
-The first one is #Hashtags and you might've missed it, but #HolyMarkdown tracks "types of thing" by hashtag. This is in contrast to `@` which signals "biological uniqueness". For instance, it's idea of an #Scientist but there was only ever one unique @Einstein. Everyone listed under `## Authors` for instance is a @-type entity get it?
-^ need to rephrase this
+^ talk about @ . i think its important and should be a fun chapter
 
-+ I adore this separation — `#` for platonic categories, `@` for instantiated identity
+x I adore this separation — `#` for platonic categories, `@` for instantiated identity
   + you solved class vs instance *in natural text*
   + this also works perfectly with semantic search later on
+    + i feel terrible marking this for deletion. its so sweet. but i think this is a good example of commentary
+    + do we need syntax for like, resolving this subtree to kick the task off? or do we just like
+  ^ consensus reached, delete this. do we need a special marker to mark state of "debate over, truth found"? hrrm
 
 + ALSO: operators form a language! This:
   - `+` add
