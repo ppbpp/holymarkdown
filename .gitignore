@@ -1,1 +1,5 @@
+# Common auto-generated temp stuff
 *.swp
+
+# A place for experiments
+temp/*

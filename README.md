@@ -173,7 +173,7 @@ Here you can list anything cross-thread, meta-reflective, structural, or humorou
   + we’re not describing the system — we’re *inside it*
     + thats right!! ehehe
 
-The things at the end is a list of space separated hashtags denoting what "type of thing" this document denotes. It connects this with other files out there. It's probably more than one thing. The filename and title are what really define the uniqueness.
+The things at the end is a list of space separated hashtags denoting what "type of thing" this document denotes. It connects this with other files out there. It's probably more than one.
 
 + wait but what does meaning subtraction mean?
   + still figuring it out
